@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
@@ -276,3 +277,283 @@ html {
     align-items: center;
     border-radius: 10px;
 }
+=======
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #263138;
+}
+
+header {
+    background-color: #FF9A6C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 80px 24px 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding-left: 32px;
+}
+
+header nav a:hover {
+    color: #263138;
+    transition: 200ms;
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px 128px 80px;
+    position: relative;
+}
+
+main section#inicio,
+main section#farmacia,
+main section#duvidas {
+    
+    padding-top: 100px;
+}
+h1,
+h2 {
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #FF725E;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.botao:hover {
+    color: #111;
+    transition: color 0.3s, color 0.3s;
+}
+.botao-transparente {
+    background-color: transparent;
+    color: #FF725E;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+
+}
+
+.botao-transparente:hover {
+    color: #111;
+    transition: color 0.3s, color 0.3s;
+}
+
+.absolut {
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#clinica {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    gap: 64px;
+    padding: 64px;
+}
+
+#clinica li {
+    margin-bottom: 16px;
+    margin-left: 32px;
+}
+
+.separadorh {
+    border-bottom: 1px solid rgba(255, 152, 108, 0.25);
+}
+#farmacia {
+    padding: 64px 80px;
+
+    text-align: center;
+
+}
+
+#farmacia img {
+    margin: 64px auto;
+}
+
+#farmacia .paragrafo {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.duvida {
+    position: relative;
+}
+.duvida h3 {
+    border: 2px solid #FF725E;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 24px;
+}
+
+.duvida i{
+    position: absolute;
+    top: 32px;
+    right: 24px;
+}
+
+.duvida .paragrafo {
+    border-right: 1px solid #FF725E;
+    border-left: 1px solid #FF725E;
+    border-bottom: 1px solid #FF725E;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 0 24px;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.duvida.ativa .paragrafo {
+    height: fit-content;
+    opacity: 1;
+    padding: 24px;
+
+}
+
+footer {
+    background-color: rgba(255, 152, 108, 0.25);
+    display: flex;
+    justify-content: space-between;  
+    gap: 80px;
+    padding: 64px 80px;
+    max-height: 300px;
+    
+}
+
+
+footer img,
+footer .titulo { 
+    display: block;
+    font-weight: 600;
+    margin-bottom: 24px;
+    
+}
+footer nav a{
+    text-decoration: none;
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+}
+
+footer nav a:hover {
+    color: #FF9A6C;
+    transition: 100ms;
+}
+footer .slogan {
+    max-width: 350px;
+}
+
+
+footer .social p {
+    display: inline-flex;
+    padding: 16px;
+    font-size: 25px;
+}
+
+footer .separador {
+    border-right: 1px solid rgba(255, 152, 108, 0.5);
+
+}
+
+footer .pawns {
+    align-items: center;
+    display: flex;
+    opacity: 0.3; 
+}
+
+footer .pawns:hover {
+    align-items: center;
+    display: flex;
+    opacity: 1; 
+    transition: 1s;
+}
+
+#copy {
+    background-color: #263138;
+    color: #ffffff;
+    text-align: center;
+    padding: 24px;
+}
+
+#copy a{ 
+    color: #FF9A6C;
+    text-decoration: none;
+}
+.social p {
+    display: flex;
+    justify-content: left;
+    margin-left: -15px;
+}
+.social i {
+    color: #263138;
+}
+
+.social i:hover {
+    color: #FF9A6C;
+    transition: 100ms;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.botao-topo {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+
+.botao-topo i{
+    background-color: #FF725E;
+    color: #ffffff;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+>>>>>>> 69d7cf4390bf1579450755687164a78d7b4baddd
