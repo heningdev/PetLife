@@ -1,4 +1,3 @@
-
 // Eventos  
 
 // Esconder/Exibir F.A.Q
@@ -13,9 +12,9 @@ elementosDuvida.forEach(function (duvida) {
         // Verifique a classe atual do ícone e alterne entre para cima e para baixo
         if (icon.classList.contains('fa-caret-down')) {
             icon.classList.remove('fa-caret-down');
-            icon.classList.add('fa-caret-up');
+            icon.classList.add('fa-minus');
         } else {
-            icon.classList.remove('fa-caret-up');
+            icon.classList.remove('fa-minus');
             icon.classList.add('fa-caret-down');
         }
     });
